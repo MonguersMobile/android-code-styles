@@ -1,7 +1,7 @@
 Java Code Styles
 ================
 
-IntelliJ IDEA code style settings for Square's Java and Android projects.
+Android Studio code style settings for Idealista's Android projects.
 
 
 Installation
