@@ -2,8 +2,9 @@
   <option name="myName" value="Idealista" />
   <inspection_tool class="AbstractClassNamingConvention" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="AndroidLintContentDescription" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintWrongConstant" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="AnonymousClassComplexity" enabled="true" level="ERROR" enabled_by_default="true">
-    <option name="m_limit" value="3" />
+    <option name="m_limit" value="5" />
   </inspection_tool>
   <inspection_tool class="AnonymousClassMethodCount" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="m_limit" value="3" />
@@ -26,9 +27,11 @@
     <option name="onlyReportMultiple" value="true" />
   </inspection_tool>
   <inspection_tool class="CallToStringConcatCanBeReplacedByOperator" enabled="true" level="INFORMATION" enabled_by_default="true" />
-  <inspection_tool class="CastToConcreteClass" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="CastToConcreteClass" enabled="false" level="ERROR" enabled_by_default="false">
+    <option name="ignoreAbstractClasses" value="true" />
+  </inspection_tool>
   <inspection_tool class="ChainedEquality" enabled="true" level="INFORMATION" enabled_by_default="true" />
-  <inspection_tool class="ChainedMethodCall" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="ChainedMethodCall" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="m_ignoreFieldInitializations" value="true" />
     <option name="m_ignoreThisSuperCalls" value="true" />
   </inspection_tool>
@@ -74,7 +77,7 @@
   <inspection_tool class="ConstantNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="onlyCheckImmutables" value="false" />
     <option name="m_regex" value="[A-Z][A-Z_\d]*" />
-    <option name="m_minLength" value="5" />
+    <option name="m_minLength" value="3" />
     <option name="m_maxLength" value="32" />
   </inspection_tool>
   <inspection_tool class="ConstantOnLHSOfComparison" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -123,26 +126,27 @@
   <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InstanceMethodNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-    <option name="m_minLength" value="4" />
-    <option name="m_maxLength" value="32" />
+    <option name="m_minLength" value="3" />
+    <option name="m_maxLength" value="40" />
   </inspection_tool>
   <inspection_tool class="InstanceVariableNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-    <option name="m_minLength" value="5" />
+    <option name="m_minLength" value="3" />
     <option name="m_maxLength" value="32" />
   </inspection_tool>
-  <inspection_tool class="InstanceVariableOfConcreteClass" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="InstanceVariableOfConcreteClass" enabled="false" level="ERROR" enabled_by_default="false">
+    <option name="ignoreAbstractClasses" value="true" />
+  </inspection_tool>
   <inspection_tool class="InstanceofChain" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="ignoreInstanceofOnLibraryClasses" value="false" />
   </inspection_tool>
   <inspection_tool class="InterfaceNamingConvention" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-    <option name="m_minLength" value="8" />
-    <option name="m_maxLength" value="64" />
+    <option name="m_minLength" value="5" />
+    <option name="m_maxLength" value="40" />
   </inspection_tool>
   <inspection_tool class="KRUnspecifiedParameters" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="LocalValueEscapesScope" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="LocalVariableOfConcreteClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LoggerInitializedWithForeignClass" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="loggerClassName" value="org.apache.log4j.Logger,org.slf4j.LoggerFactory,org.apache.commons.logging.LogFactory,java.util.logging.Logger" />
     <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
@@ -160,7 +164,7 @@
     <option name="ignoreStaticMethodsFromNonStaticInnerClass" value="false" />
     <option name="onlyReportStaticMethods" value="false" />
   </inspection_tool>
-  <inspection_tool class="MethodReturnOfConcreteClass" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="MethodReturnOfConcreteClass" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="MethodWithMultipleLoops" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="ignoreObjectMethods" value="true" />
@@ -178,7 +182,7 @@
   <inspection_tool class="OCUnusedMacroInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="OCUnusedStructInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="OCUnusedTemplateParameterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="ParameterOfConcreteClass" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="ParameterOfConcreteClass" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="ParametersPerConstructor" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="ignoreScope" value="PROTECTED" />
   </inspection_tool>
