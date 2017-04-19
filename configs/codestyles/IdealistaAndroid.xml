@@ -16,7 +16,6 @@
   <option name="GENERATE_FINAL_LOCALS" value="true" />
   <option name="GENERATE_FINAL_PARAMETERS" value="true" />
   <option name="VISIBILITY" value="private" />
-  <option name="REPLACE_NULL_CHECK" value="false" />
   <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
   <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
   <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
@@ -94,18 +93,10 @@
     <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
     <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
   </JavaCodeStyleSettings>
-  <JetCodeStyleSettings>
-    <option name="PACKAGES_TO_USE_STAR_IMPORTS">
-      <value />
-    </option>
-    <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="999" />
-    <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="999" />
-    <option name="IMPORT_NESTED_CLASSES" value="true" />
-  </JetCodeStyleSettings>
-  <MarkdownNavigatorCodeStyleSettings>
-    <option name="RIGHT_MARGIN" value="72" />
-  </MarkdownNavigatorCodeStyleSettings>
   <Objective-C-extensions>
+    <option name="GENERATE_INSTANCE_VARIABLES_FOR_PROPERTIES" value="ASK" />
+    <option name="RELEASE_STYLE" value="IVAR" />
+    <option name="TYPE_QUALIFIERS_PLACEMENT" value="BEFORE" />
     <file>
       <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Import" />
       <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Macro" />
