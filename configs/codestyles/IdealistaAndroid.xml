@@ -80,7 +80,6 @@
     <option name="LAYOUT_SETTINGS">
       <value>
         <option name="INSERT_BLANK_LINE_BEFORE_TAG" value="false" />
-        <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
       </value>
     </option>
     <option name="MANIFEST_SETTINGS">
@@ -134,6 +133,7 @@
   <XML>
     <option name="XML_KEEP_WHITESPACES" value="true" />
     <option name="XML_ATTRIBUTE_WRAP" value="4" />
+    <option name="XML_KEEP_BLANK_LINES" value="1" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <ADDITIONAL_INDENT_OPTIONS fileType="php">
