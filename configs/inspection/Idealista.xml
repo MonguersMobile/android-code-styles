@@ -195,6 +195,7 @@
     <option name="onlyWarnIfContainingClassImplementsAnInterface" value="false" />
   </inspection_tool>
   <inspection_tool class="RedundantSuppression" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="RemoveAtFromAnnotationArgument" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="ResourceNotFoundInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SignednessMismatch" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StaticMethodOnlyUsedInOneClass" enabled="true" level="WARNING" enabled_by_default="true" />
